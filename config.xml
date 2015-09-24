@@ -58,9 +58,11 @@
 -->
     <gap:platform name="android" />
 <!--    <gap:platform name="ios" />-->
-    <gap:plugin name="org.apache.cordova.device" source="npm"/>
+
+    <gap:plugin name="cordova-plugin-device" source="npm"/>
+<!--
     <gap:plugin name="phonegap-plugin-push" source="npm" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
-
+-->
     <access origin="*" />
 </widget>
